@@ -1,0 +1,1 @@
+cmd_/home/vlad/uni/AK/lab5/AK_Lab5/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/vlad/uni/AK/lab5/AK_Lab5/hello.ko /home/vlad/uni/AK/lab5/AK_Lab5/hello.o /home/vlad/uni/AK/lab5/AK_Lab5/hello.mod.o;  true
